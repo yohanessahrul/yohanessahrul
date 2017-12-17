@@ -1,0 +1,130 @@
+* {
+    padding: o;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container {
+    background: grey;
+    width: 100%;
+    height: 650px;
+}
+.left{
+    width: 25%;
+    height: 800px;
+    position: fixed;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+    background: #45484d; /* Old browsers */
+    background: -moz-linear-gradient(top, #45484d 0%, #000000 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+#profile {
+    width: 100%;
+    height: 85%;
+    margin-top: 50px;
+}
+#profile h3 {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 25px;
+    color: #fafafa;
+}
+#profile p {
+    text-align: center;
+    font-size: 15px;
+    color: #b4b4b4;
+}
+#avatar {
+    width: 200px;
+    height: 200px;
+    background: black;
+    border-radius: 50%;
+    margin: 10px auto;
+    overflow: hidden;
+    border: 3px solid #212121;
+}
+#avatar img {
+    width: 100%;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+.menu {
+    margin-top: 40px;
+    background: orange;
+}
+.menu ul li {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.menu ul li:hover {
+    background: rgb(208, 100, 0);
+    transition: 0.5s;
+}
+.menu ul li a {
+    color: #ffffff;
+}
+.orange1{
+    background: #FF9700;
+}
+.orange2{
+    background: rgb(213, 124, 0);
+}
+.orange3{
+    background: rgb(187, 103, 1);
+}
+.menu ul li a:href {
+    color: #FFF;
+}
+.social-media {
+   background: #FF9700;
+   padding: 20px 0;
+}
+.social-media ul {
+    display: table;
+    margin: 0 auto;
+}
+.social-media ul li {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-media ul li img {
+    width: 100%;
+}
+.right{
+    width: 75%;
+    margin-left: 25%;
+    height: 900px;
+    background: rgb(243, 243, 243);
+}
+.content-item {
+    padding: 50px 40px;
+}
+.content-item > h1 {
+    font-size: 40px;
+    color: #474747;
+    font-family: 'Ubuntu', sans-serif;    
+}
+.content-item p {
+    font-size: 25px;
+    padding-top: 20px;
+    color: #6d6d6d;
+    font-family: 'Slabo 27px', serif;
+}
+footer{
+    margin-top: 30px;
+}
+footer p {
+    color: grey;
+    text-align: center;
+}
